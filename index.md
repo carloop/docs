@@ -1,15 +1,15 @@
 
-## Getting Started with Carloop
+# Getting Started with Carloop
 This page will help you get started with Carloop. You'll be up and running in a jiffy!
 
 # SUGGEST EDITS
 After you sign up to Particle's Web Development Environment, follow these four easy steps.
 
-# Step 1: Create New App
+### Step 1: Create New App
 Go to build.particle.io and click on Create New App, you'll see this:
 
 
-# Step 2: Add Carloop Library
+##Step 2: Add Carloop Library
 Add the Carloop library to your app by clicking on the Libraries button and search for the Carloop library. Once you find it, click on it.
 
 
