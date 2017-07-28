@@ -18,8 +18,13 @@ git clone git@github.com:carloop/docs.git
 ```
 ruby -run -e httpd
 ```
-That's it!
+## Usage
 
-## How to formt Markdown files:
+Once your server is running, open up a browser and type in the URL:
+```
+http://localhost:8080/
+```
+
+## How to format Markdown files:
 Here is a great guide that shows you the tips and tricks to format Markdown files to look nice:
 [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
