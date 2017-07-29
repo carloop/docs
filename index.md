@@ -17,7 +17,9 @@ To get started with Carloop, all you need is the following:
 Carloop Basic is a pre-built kit which comes with a Carloop [https://store.carloop.io/products/carloop](https://goo.gl/qSsLV8) plus a Particle Photon.  The Particle Photon is a microcontroller that comes with a CAN bus and a WiFi radio.  We've looked at many options out there and this was the easiest development kit we could find!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/carloop/hardware/master/images/Carloop%20Basic_Transparent_BG.png" width="355"/>
+<a href="images/Carloop Basic_Transparent_BG.png" data-caption="Carloop Basic" data-fancybox="what-is-carloop">
+  <img src="images/Carloop Basic_Transparent_BG.png" width="355"/>
+</a>
 </p>
 
 
