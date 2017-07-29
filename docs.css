@@ -5,3 +5,9 @@ body {
 .content img {
   max-width: 100%;
 }
+
+.content img.narrow-image {
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
