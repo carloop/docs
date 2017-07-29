@@ -110,6 +110,28 @@ receiving messages from the engine computer in the car!
 
 Now you are ready to start programming your own app!
 
+# Car talk
+
+Before diving deeper, it's useful to introduce some vocabulary about cars.
+
+**Controller Area Network (CAN)** The network used to connect computers in modern cars.
+
+**CAN message** One piece of information exchanged between 2 computers on a CAN bus. It has an id number identifying what is in the message and up to 8 data bytes.
+
+**On-board diagnostics (OBD-II)** The diagnostic protocol available in all cars. Since 2008 all US cars must have OBD-II through CAN so are compatible with Carloop.
+
+**OBD-II port** The trapezoid shaped connector under the steering wheel where to plug Carloop. It has pins for the car battery and CAN.
+
+**Firmware** Software for an embedded computer, stored in read-only memory.
+
+**Flash** Program the read-only memory of an embedded computer with a new version of firmware. Can be done over the wire or over the air in case of Carloop.
+
+**Electronic control unit (ECU)** A computer in the car, like the engine control unit, transmission control unit. Typically those communicate with each other over CAN.
+
+**SocketCAN** Driver to interface with CAN hardware connected to a Linux computer.
+
+**Can-utils** A rich set of utilities (candump, cangen, etc) to record, replay, analyze CAN traffic on Linux.
+
 # Work in progress
 
 ## Carloop Pinout
