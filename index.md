@@ -5,7 +5,9 @@
 ## What is Carloop?
 Carloop is an open source development kit that lets you easily access a car's CAN bus.
 
-<img src="https://raw.githubusercontent.com/carloop/hardware/master/images/Photo2_750.png" width="355"/>
+<a href="images/Photo2_750.jpg" data-caption="Carloop" data-fancybox="what-is-carloop">
+  <img src="images/Photo2_750.jpg" width="355"/>
+</a>
 
 ## How do I get started?
 To get started with Carloop, all you need is the following:
