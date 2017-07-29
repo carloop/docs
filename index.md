@@ -86,39 +86,37 @@ documentation](https://docs.particle.io) has step-by-step examples.
 Here's a project to make the blue LED on the Photon or Electron blink when receiving
 data through the OBD port.
 
-### Step 1: Create New App
-Go to [build.particle.io](https://build.particle.io) and click on Create New App, you'll see this:
-
-<a href="images/create_new_particle_app.png" data-caption="Create a new app" data-fancybox="getting-started">
-  <img src="images/create_new_particle_app.png">
-</a>
-
-### Step 2: Add Carloop Library
-Add the Carloop library to your app by clicking on the Libraries button and search for the Carloop library. Once you find it, click on it.
+### Step 1: Search Carloop Library
+Search for the Carloop library by clicking on the Libraries button and typing `carloop`. Once you find it, click on it.
 
 <a href="images/library_create.png" data-caption="Search for the Carloop library" data-fancybox="getting-started">
   <img src="images/library_create.png">
 </a>
 
-### Step 3: Include in App
-To include the Carloop library in your app, you have to manually click the INCLUDE IN APP button so the app you are building will now which library to use.
+### Step 2: Select the OBD Blink example
+Click the `obd_blink.cpp` example then click USE THIS EXAMPLE.
 
 <a href="images/include_library.png" data-caption="Include the Carloop library" data-fancybox="getting-started">
   <img src="images/include_library.png">
 </a>
 
+### Step 3: Flash the code
+Click the lightning bolt icon to compile the code and flash it (transfer it to the memory of the Particle Photon or Electron).
+
 ### Step 4: You're done!
-Now you are ready to start programming your own app! Follow Hello World on the next page to learn how to blink and LED!
+If you plug the Carloop into the OBD port in your car and turn the key
+on, you'll see the blue LED blink. This indicates that the Carloop is
+receiving messages from the engine computer in the car!
 
-<a href="images/library_included.png" data-caption="Start using the library in your code" data-fancybox="getting-started">
-  <img src="images/library_included.png">
-</a>
+Now you are ready to start programming your own app!
 
+# Work in progress
+
+## Carloop Pinout
+
+## SocketCAN
 
 ## Advanced development
 
 Install the [Particle CLI (Command Line Interface)](https://www.particle.io/cli) to be able to program your Carloop locally instead of over the air.
-
-## Pinout
-
 
