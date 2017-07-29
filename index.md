@@ -48,7 +48,6 @@ Wi-Fi microcontroller).
 ### Assembled Carloop
 
 Plug in the microcontroller into the Carloop board. Make sure to put the USB port towards the right.
-
 The Carloop Basic comes pre-assembled with a Particle Photon.
 
 <a href="images/Carloop_assembled.jpg" data-caption="Carloop with a Photon" data-fancybox="hardware">
@@ -60,23 +59,21 @@ The Carloop Basic comes pre-assembled with a Particle Photon.
 You'll be using the tools from [Particle](https://www.particle.io) to
 program the software in the Photon and Electron.
 
-### Set up a Particle account
+####1.	Set up a Particle account:
 
 If you don't have a Particle account, take the time to
 <a href="https://login.particle.io/signup" target="_blank">sign up for an account now</a>.
 
-### Connect your device to the Internet
+####2.	Connect your device to the Internet
 
 You'll need to connect your Particle Photon or Particle Electron to the
 Internet so you can program it.
-
 The easiest way to do that is to connect the device to USB and follow the
 steps on the [Particle setup page](https://setup.particle.io).
 
-### Get familiar with the Particle
+####3.	Get familiar with Particle
 
 You'll be writing code for Carloop in the [Particle Web IDE](https://build.particle.io).
-
 It's a good idea to go through a first Particle project if you have not
 programmed a Particle device before.  The [Particle
 documentation](https://docs.particle.io) has step-by-step examples.
@@ -86,24 +83,24 @@ documentation](https://docs.particle.io) has step-by-step examples.
 Here's a project to make the blue LED on the Photon or Electron blink when receiving
 data through the OBD port.
 
-### Step 1: Search Carloop Library
+####	Step 1: Search Carloop Library
 Search for the Carloop library by clicking on the Libraries button and typing `carloop`. Once you find it, click on it.
 
 <a href="images/library_create.png" data-caption="Search for the Carloop library" data-fancybox="getting-started">
   <img src="images/library_create.png">
 </a>
 
-### Step 2: Select the OBD Blink example
+####	Step 2: Select the OBD Blink example
 Click the `obd_blink.cpp` example then click USE THIS EXAMPLE.
 
 <a href="images/include_library.png" data-caption="Include the Carloop library" data-fancybox="getting-started">
   <img src="images/include_library.png">
 </a>
 
-### Step 3: Flash the code
+####	Step 3: Flash the code
 Click the lightning bolt icon to compile the code and flash it (transfer it to the memory of the Particle Photon or Electron).
 
-### Step 4: You're done!
+####	Step 4: You're done!
 If you plug the Carloop into the OBD port in your car and turn the key
 on, you'll see the blue LED blink. This indicates that the Carloop is
 receiving messages from the engine computer in the car!
@@ -135,6 +132,17 @@ Before diving deeper, it's useful to introduce some vocabulary about cars.
 # Work in progress
 
 ## Carloop Pinout
+
+Carloop aligns with the Particle Photon and Particle Electron so that the following pins are used:
+Carloop's PCB connects your car's CAN bus network to the Photon, Electron and Duo. It also provides battery power and a GPS to track location.
+
+<p align="center">
+<p align="center">
+	<a href="images/Carloop_Photon_Pinout_small.png" data-caption="Photon Pinout" data-fancybox="getting-started">
+	  <img src="images/include_library.png">
+	</a>
+</p>
+
 
 ## SocketCAN
 
