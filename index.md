@@ -1,6 +1,25 @@
+<p align="center">
+  <img src="https://github.com/carloop/hardware/blob/master/images/carloop%20with%20text.png?raw=true" alt="Carloop Logo"/>
+</p>
 
-# Getting Started with Carloop
-This page will help you get started with Carloop. You'll be up and running in a jiffy!
+## What is Carloop?
+Carloop is an open source development kit that lets you easily access a car's CAN bus.
+
+<img src="https://raw.githubusercontent.com/carloop/hardware/master/images/Photo2_750.png" width="355"/>
+
+## How do I get started?
+To get started with Carloop, all you need is the following:
+- Carloop Basic: [https://store.carloop.io/products/carloop-basic](https://goo.gl/QXREmq)
+- OSX/Windows/Linux to program and flash
+- Micro-usb to USB cable
+
+### The Hardware Pieces Explained
+Carloop Basic is a pre-built kit which comes with a Carloop [https://store.carloop.io/products/carloop](https://goo.gl/qSsLV8) plus a Particle Photon.  The Particle Photon is a microcontroller that comes with a CAN bus and a WiFi radio.  We've looked at many options out there and this was the easiest development kit we could find!
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/carloop/hardware/master/images/Carloop%20Basic_Transparent_BG.png" width="355"/>
+</p>
+
 
 # SUGGEST EDITS
 After you sign up to Particle's Web Development Environment, follow these four easy steps.
