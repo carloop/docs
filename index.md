@@ -137,9 +137,8 @@ Carloop aligns with the Particle Photon and Particle Electron so that the follow
 Carloop's PCB connects your car's CAN bus network to the Photon, Electron and Duo. It also provides battery power and a GPS to track location.
 
 <p align="center">
-<p align="center">
 	<a href="images/Carloop_Photon_Pinout_small.png" data-caption="Photon Pinout" data-fancybox="getting-started">
-	  <img src="images/include_library.png">
+	  <img src="images/Carloop_Photon_Pinout_small.png">
 	</a>
 </p>
 
