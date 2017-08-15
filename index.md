@@ -54,6 +54,14 @@ The Carloop Basic comes pre-assembled with a Particle Photon.
   <img src="images/Carloop_assembled.jpg" class="narrow-image">
 </a>
 
+### Your car
+
+The connector on Carloop is compatible with the OBD-II port found on all cars since 2008. Cars made between 1996 and 2008 also have an OBD-II port, but [there may not be a CAN bus on the OBD-II port on those cars](https://community.carloop.io/t/when-the-main-can-bus-is-not-on-the-obd-ii-port/116) so it won't work with Carloop.
+
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/OBD_002.jpg/800px-OBD_002.jpg" data-caption="OBD-II port in a car" data-fancybox="hardware">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/OBD_002.jpg/320px-OBD_002.jpg" class="narrow-image">
+</a>
+
 ## Get Ready to develop
 
 You'll be using the tools from [Particle](https://www.particle.io) to
